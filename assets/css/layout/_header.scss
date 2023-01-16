@@ -30,7 +30,7 @@
           color: rgba($color-white, 1);
           @extend%trans4;
           &:hover {
-            color: rgba($color-primary, 1);
+            color: rgba($color-primary-light, 1);
           }
         }
       }
