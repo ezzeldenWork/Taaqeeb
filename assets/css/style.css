@@ -255,6 +255,14 @@ html[dir=rtl] body {
     visibility: hidden;
     transition: 0.4s all ease-in-out;
   }
+  .mine-navbar .mobileMenu:after {
+    z-index: -1;
+    inset: 0;
+    background-image: url("../img/M-LINE.png");
+    position: absolute;
+    content: "";
+    opacity: 0.05;
+  }
   .mine-navbar .mobileMenu ul li {
     margin: 10px;
   }

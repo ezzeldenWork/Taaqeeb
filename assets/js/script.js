@@ -6,12 +6,10 @@ $(document).ready(function () {
   $(".mine-navbar .open-menu i").click(function () {
     $(".mobileMenu").addClass("right-0");
     $("body").addClass("body-over");
-    $(".overlay").show();
   });
 
-  $(".mine-navbar .mobileMenu .exit-icon i, .overlay").click(function () {
+  $(".mine-navbar .mobileMenu .exit-icon i").click(function () {
     $(".mobileMenu").removeClass("right-0");
     $("body").removeClass("body-over");
-    $(".overlay").hide();
   });
 });
