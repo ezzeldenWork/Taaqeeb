@@ -3,9 +3,8 @@
   background-size: cover;
   background-position: center;
   position: relative;
-  padding: 93px 0 300px;
+  padding: 93px 0 200px;
   z-index: 1;
-  height: 60vh;
   &::after {
     content: "";
     position: absolute;
@@ -21,10 +20,10 @@
     left: 0;
     right: 0;
     filter: drop-shadow(-1px -9px 3px #00000013);
-    background-image: url("../img/wave.svg");
+    background-image: url("../img/wave.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 290px;
+    height: 180px;
     width: 100%;
   }
   .intro-content {
@@ -48,9 +47,11 @@
 }
 @media (max-width: 772px) {
   .intro-section {
-    padding: 93px 0 141px;
+    padding: 93px 0 93px;
     z-index: 1;
-    height: unset;
+    &::before {
+      height: 77px;
+    }
     .intro-content {
       .title {
         font-size: 24px;
