@@ -471,7 +471,7 @@ html[dir=rtl] body {
   display: block;
   padding: 10px 24px;
   border-radius: 3px;
-  font-size: 12px;
+  font-size: 15px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
