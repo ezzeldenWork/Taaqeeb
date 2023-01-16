@@ -341,6 +341,16 @@ html[dir=rtl] body {
   padding: 54px 0 34px;
   margin: 80px 0 0;
   background-color: #555555;
+  position: relative;
+  z-index: 1;
+}
+.min-footer:after {
+  z-index: -1;
+  inset: 0;
+  background-image: url("../img/M-LINE.png");
+  position: absolute;
+  content: "";
+  opacity: 0.05;
 }
 .min-footer .footer-ul ul li {
   margin: 15px 0;
